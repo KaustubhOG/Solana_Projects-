@@ -54,4 +54,14 @@ This project demonstrates a **Solana program using the Anchor framework** that a
 
 ---
 
+## Notes
 
+- Make sure to update the `declare_id!()` in `programs/picky/src/lib.rs` with the correct **Program ID** after deployment.  
+- Hobbies have a maximum of 5 elements, each with a maximum of 50 characters.  
+- This project uses **Anchor macros** like `#[program]`, `#[account]`, and `#[derive(Accounts)]` for easier Solana development.
+
+---
+
+## Author
+
+**Kaustubh Shivarkar**
