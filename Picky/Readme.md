@@ -1,4 +1,3 @@
-
 # Picky Solana Project
 
 This project demonstrates a **Solana program using the Anchor framework** that allows users to store their favorite number, color, and hobbies on-chain.
@@ -25,5 +24,34 @@ This project demonstrates a **Solana program using the Anchor framework** that a
 
 ---
 
+## How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/KaustubhOG/Solana_Projects.git
+   cd Solana_Projects/picky_project
+   ```
+
+2. Install dependencies (for tests):
+   ```bash
+   npm install
+   ```
+
+3. Build the program:
+   ```bash
+   anchor build
+   ```
+
+4. Deploy to localnet:
+   ```bash
+   anchor deploy
+   ```
+
+5. Run tests:
+   ```bash
+   anchor test
+   ```
+
+---
 
 
