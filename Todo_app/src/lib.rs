@@ -7,3 +7,9 @@ use solana_program::{
     pubkey::Pubkey,
     program_error::ProgramError,
 };
+
+#[derive(BorshSerialize, BorshDeserialize, Debug)]
+pub struct Task {
+    pub description: String,
+    pub completed: bool,
+}
