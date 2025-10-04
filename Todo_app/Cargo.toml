@@ -1,6 +1,13 @@
 [package]
-name = "Todo_app"
+name = "solana_todo_list"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+
+[lib]
+name = "solana_todo_list"
+crate-type = ["cdylib", "lib"]
 
 [dependencies]
+solana-program = "2.0.0"
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
