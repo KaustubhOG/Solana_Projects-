@@ -9,9 +9,21 @@ use solana_program::{
 };
 
 #[derive(BorshSerialize, BorshDeserialize, Debug)]
+
+
 pub struct Task {
     pub description: String,
     pub completed: bool,
+}
+
+#[derive(BorshSerialize, BorshDeserialize, Debug)]
+pub struct TodoList {
+    pub tasks: Vec<Task>,
+}
+
+pub enum TodoInstruction {
+    AddTask(String),
+    CompleteTask(u32), 
 }
 
 // Program entrypoint
