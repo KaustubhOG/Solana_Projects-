@@ -13,3 +13,21 @@ pub struct Task {
     pub description: String,
     pub completed: bool,
 }
+
+// Program entrypoint
+entrypoint!(process_instruction);
+
+fn process_instruction(
+    _program_id: &Pubkey,
+    accounts: &[AccountInfo],
+    instruction_data: &[u8],
+) -> ProgramResult {
+    let accounts_iter = &mut accounts.iter();
+    let user_account = next_account_info(accounts_iter)?;
+
+    msg!("Todo program invoked by {:?}", user_account.key);
+    msg!("Instruction data: {:?}", instruction_data);
+
+    // TODO: Add task logic later
+    Ok(())
+}
