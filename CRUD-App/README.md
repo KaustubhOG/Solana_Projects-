@@ -1,5 +1,8 @@
 # CRUD-App
 
+![Alt Text](./explanation.png)
+
+
 This is a Next.js app containing:
 
 - Tailwind CSS setup for styling
