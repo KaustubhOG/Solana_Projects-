@@ -1,6 +1,6 @@
 # Sasuke Token 🥷
 
-![Sasuke Token](https://i.imgur.com/E7DYYiP.png)
+![Sasuke Token](./token.png)
 
 ## Overview
 **Sasuke Token (106)** is a test token deployed for experimentation and learning purposes.  
@@ -29,3 +29,4 @@ It demonstrates how to create and configure a custom token with metadata on the 
     "category": "image"
   }
 }
+
