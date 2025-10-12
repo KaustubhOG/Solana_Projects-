@@ -1,0 +1,11 @@
+/home/devlopment/Desktop/practice/github/Solana_Projects-/Todo_app/target/debug/deps/borsh-26f37059e9616dd8.d: /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs
+
+/home/devlopment/Desktop/practice/github/Solana_Projects-/Todo_app/target/debug/deps/libborsh-26f37059e9616dd8.rmeta: /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs
+
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs:

@@ -1,0 +1,12 @@
+/home/devlopment/Desktop/practice/github/Solana_Projects-/Todo_app/target/debug/deps/sha2-0821810dc50cd4e7.d: /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/lib.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/consts.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/soft.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/x86.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/soft.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/x86.rs
+
+/home/devlopment/Desktop/practice/github/Solana_Projects-/Todo_app/target/debug/deps/libsha2-0821810dc50cd4e7.rmeta: /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/lib.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/consts.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/soft.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/x86.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/soft.rs /home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/x86.rs
+
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/lib.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/consts.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/soft.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha256/x86.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/soft.rs:
+/home/devlopment/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/sha512/x86.rs:
