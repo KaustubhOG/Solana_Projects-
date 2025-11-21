@@ -1,0 +1,16 @@
+{
+  "name": "Sasuke Token",
+  "symbol": "106",
+  "description": "test token",
+  "image": "https://i.imgur.com/E7DYYiP.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://i.imgur.com/E7DYYiP.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
