@@ -77,7 +77,7 @@ export default function Home() {
 
       const program = new anchor.Program(IDL as any, programId, provider);
       const account = await program.account.favorites.fetch(pda);
-      
+
       setFavorites({
         number: account.number.toString(),
         color: account.color,
@@ -125,7 +125,7 @@ export default function Home() {
       setNumber("");
       setColor("");
       setHobby("");
-      
+
       // Refresh favorites after submission
       await fetchFavorites();
     } catch (error: any) {
@@ -137,21 +137,27 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-4">
+    <main className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-md space-y-6">
         <h1 className="text-3xl font-bold text-center">Add Favorites</h1>
 
         {/* Display current favorites */}
         {publicKey && (
           <div className="p-4 bg-gray-100 rounded border">
-            <h2 className="font-bold mb-2">Current Favorites:</h2>
+            <h2 className="font-bold mb-2 text-blue-900">Current Favorites:</h2>
             {fetchLoading ? (
               <p>Loading...</p>
             ) : favorites ? (
-              <div className="space-y-1">
-                <p><strong>Number:</strong> {favorites.number}</p>
-                <p><strong>Color:</strong> {favorites.color}</p>
-                <p><strong>Hobby:</strong> {favorites.hobbies}</p>
+              <div className="space-y-1 text-blue-900">
+                <p>
+                  <strong>Number:</strong> {favorites.number}
+                </p>
+                <p>
+                  <strong>Color:</strong> {favorites.color}
+                </p>
+                <p>
+                  <strong>Hobby:</strong> {favorites.hobbies}
+                </p>
               </div>
             ) : (
               <p className="text-gray-500">No favorites added yet</p>
@@ -200,6 +206,9 @@ export default function Home() {
           {fetchLoading ? "Loading..." : "Refresh Favorites"}
         </button>
       </div>
+      <a href="https://explorer.solana.com/address/GE3yf9XVmbpb4xJq73kJrg2tnVEFe5kSWKs5pCq6cCRA?cluster=devnet">
+        Check Contract On Solana Explorer
+      </a>
     </main>
   );
 }
