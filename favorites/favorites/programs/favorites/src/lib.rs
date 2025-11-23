@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("93UEFSJZnzwhmo54vvAn2Y2XiRdLt8pJENPF61aHoBcj");
+declare_id!("GE3yf9XVmbpb4xJq73kJrg2tnVEFe5kSWKs5pCq6cCRA");
 
 pub const ANCHOR_DISCRIMINATOR_SIZE: usize = 8;
 
@@ -12,7 +12,7 @@ pub mod favorites {
         ctx: Context<AddFavorites>,
         number: u64,
         color: String,
-        hobbies: Vec<String>,
+        hobbies: String,
     ) -> Result<()> {
         let acc = &mut ctx.accounts.favorites;
         acc.number = number;
@@ -45,6 +45,6 @@ pub struct Favorites {
     pub number: u64,
     #[max_len(50)]
     pub color: String,
-    #[max_len(5, 50)]
-    pub hobbies: Vec<String>
+    #[max_len(50)]
+    pub hobbies: String,
 }
