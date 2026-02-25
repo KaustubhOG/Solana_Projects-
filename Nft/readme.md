@@ -1,1 +1,0 @@
-setting nft folder structure
